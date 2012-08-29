@@ -12,10 +12,10 @@ using System.Runtime.InteropServices;
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: AssemblyProductAttribute("Ninject.Extensions.bbvEventBroker: bbvEventBroker Extension for Ninject")]
+[assembly: AssemblyProductAttribute("Ninject.Extensions.AppccelerateEventBroker: Appccelerate.EventBroker Extension for Ninject")]
 [assembly: AssemblyCompanyAttribute("bbv Software Services AG")]
-[assembly: AssemblyCopyrightAttribute("Copyright © 2009-2010 bbv Software Services AG and contributors")]
-[assembly: AssemblyVersionAttribute("2.1.0.6")]
+[assembly: AssemblyCopyrightAttribute("Copyright © 2009-2012 bbv Software Services AG and contributors")]
+[assembly: AssemblyVersionAttribute("3.0.0.0")]
 [assembly: ComVisibleAttribute(false)]
 [assembly: CLSCompliantAttribute(true)]
 

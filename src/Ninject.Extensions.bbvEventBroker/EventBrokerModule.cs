@@ -17,7 +17,7 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Ninject.Extensions.bbvEventBroker
+namespace Ninject.Extensions.AppccelerateEventBroker
 {
     using System;
     using Ninject.Extensions.ContextPreservation;

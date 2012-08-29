@@ -17,10 +17,10 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Ninject.Extensions.bbvEventBroker
+namespace Ninject.Extensions.AppccelerateEventBroker
 {
     using System.Globalization;
-    using bbv.Common.EventBroker;
+    using Appccelerate.EventBroker;
     using Ninject.Extensions.ContextPreservation;
     using Ninject.Extensions.NamedScope;
     using Ninject.Syntax;
@@ -95,8 +95,8 @@ namespace Ninject.Extensions.bbvEventBroker
         public static IBindingInNamedWithOrOnSyntax<T> WhenTargetNamed<T>(this IBindingWhenSyntax<T> syntax, string name)
         {
             return syntax.When(
-                request => 
-                    request.Target != null && 
+                request =>
+                    request.Target != null &&
                     request.Target.Name.ToUpper(CultureInfo.InvariantCulture) == name.ToUpper(CultureInfo.InvariantCulture));
         }
     }

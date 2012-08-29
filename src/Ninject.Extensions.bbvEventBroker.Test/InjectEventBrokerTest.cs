@@ -17,16 +17,12 @@
 // </copyright>
 //-------------------------------------------------------------------------------
 
-namespace Ninject.Extensions.bbvEventBroker
+namespace Ninject.Extensions.AppccelerateEventBroker
 {
     using System;
-    using bbv.Common.EventBroker;
-    using bbv.Common.EventBroker.Handlers;
-
+    using Appccelerate.EventBroker;
+    using Appccelerate.EventBroker.Handlers;
     using FluentAssertions;
-
-    using Ninject.Extensions.ContextPreservation;
-    using Ninject.Extensions.NamedScope;
     using Xunit;
 
     /// <summary>
@@ -118,7 +114,7 @@ namespace Ninject.Extensions.bbvEventBroker
             /// </summary>
             /// <param name="child">The child.</param>
             /// <param name="globalEventBroker">The global event broker.</param>
-            public ParentWithDefaultEventBroker(Child child, IEventBroker globalEventBroker) 
+            public ParentWithDefaultEventBroker(Child child, IEventBroker globalEventBroker)
                 : base(child, globalEventBroker)
             {
             }
@@ -180,7 +176,7 @@ namespace Ninject.Extensions.bbvEventBroker
             /// </summary>
             /// <param name="sender">The sender.</param>
             /// <param name="e">The <see cref="System.EventArgs"/> instance containing the event data.</param>
-            [EventSubscription("SomeEventTopic", typeof(Publisher))]
+            [EventSubscription("SomeEventTopic", typeof(OnPublisher))]
             public void HandleSomeEvent(object sender, EventArgs e)
             {
                 this.EventReceived = true;
