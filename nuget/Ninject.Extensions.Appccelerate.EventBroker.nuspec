@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>Ninject.Extensions.Appccelerate.EventBroker</id>
+    <version>0.0.0.0</version>
+    <authors>Ninject Project Contributors</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+	<licenseUrl>https://github.com/ninject/ninject.extensions.bbveventbroker/raw/master/LICENSE.txt</licenseUrl>
+    <description>Ninject extension which adds support for Appccelerate.EventBroker</description>
+    <summary></summary>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Ninject" version="3.0.1.10" />
+      <dependency id="Ninject.Extensions.ContextPreservation" version="3.0.0.8" />
+      <dependency id="Ninject.Extensions.NamedScope" version="3.0.0.5" />
+      <dependency id="Appccelerate.EventBroker" version="3.1.0" />
+    </dependencies> 
+  </metadata>
+  <files>
+	<file src="..\build\Release\Ninject.Extensions.AppccelerateEventBroker.dll" target="lib\net45\Ninject.Extensions.AppccelerateEventBroker.dll" />
+   </files>
+</package>

@@ -32,4 +32,4 @@ using System.Runtime.InteropServices;
 [assembly: System.Security.SecurityRules(System.Security.SecurityRuleSet.Level1)]
 [assembly: System.Security.AllowPartiallyTrustedCallers]
 #endif
-[assembly: AssemblyDescriptionAttribute("Event messaging extenions for Ninject using Appccelerate.EventBroker")]
+[assembly: AssemblyDescriptionAttribute("Event messaging extensions for Ninject using Appccelerate.EventBroker")]

@@ -13,3 +13,5 @@ _ReSharper.Ninject.Extensions.bbvEventBroker with Silverlight and WP7 Unittestin
 /lib/Ninject.Extensions.ContextPreservation/*/**
 /lib/Ninject.Extensions.NamedScope/*.zip
 /lib/Ninject.Extensions.NamedScope/*/**
+src/packages/
+nuget/BuildNuGetPackage.bat

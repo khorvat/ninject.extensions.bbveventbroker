@@ -15,7 +15,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProductAttribute("Ninject.Extensions.AppccelerateEventBroker: Appccelerate.EventBroker Extension for Ninject")]
 [assembly: AssemblyCompanyAttribute("bbv Software Services AG")]
 [assembly: AssemblyCopyrightAttribute("Copyright © 2009-2012 bbv Software Services AG and contributors")]
-[assembly: AssemblyVersionAttribute("3.0.0.0")]
+[assembly: AssemblyVersionAttribute("3.1.0.0")]
 [assembly: ComVisibleAttribute(false)]
 [assembly: CLSCompliantAttribute(true)]
 

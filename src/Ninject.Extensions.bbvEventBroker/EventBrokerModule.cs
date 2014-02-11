@@ -30,7 +30,7 @@ namespace Ninject.Extensions.AppccelerateEventBroker
     public class EventBrokerModule : NinjectModule
     {
         /// <summary>
-        /// The name of the default global event brokerl
+        /// The name of the default global event broker.
         /// </summary>
         public const string DefaultGlobalEventBrokerName = "GlobalEventBroker";
 
